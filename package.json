@@ -1,10 +1,16 @@
 {
-  "name": "dojojo",
+  "name": "@dojojo/core",
+  "workspaces": [
+    "projects/*"
+  ],
   "scripts": {
     "commit": "cz"
   },
   "devDependencies": {
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "3.3.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1"
   }
 }
