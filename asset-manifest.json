@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lipe.dev/dojojo/static/css/main.8079be36.chunk.css",
+    "main.js": "/lipe.dev/dojojo/static/js/main.491ff724.chunk.js",
+    "main.js.map": "/lipe.dev/dojojo/static/js/main.491ff724.chunk.js.map",
+    "runtime-main.js": "/lipe.dev/dojojo/static/js/runtime-main.46ac4d74.js",
+    "runtime-main.js.map": "/lipe.dev/dojojo/static/js/runtime-main.46ac4d74.js.map",
+    "static/js/2.58f8094e.chunk.js": "/lipe.dev/dojojo/static/js/2.58f8094e.chunk.js",
+    "static/js/2.58f8094e.chunk.js.map": "/lipe.dev/dojojo/static/js/2.58f8094e.chunk.js.map",
+    "static/js/3.6fefa82c.chunk.js": "/lipe.dev/dojojo/static/js/3.6fefa82c.chunk.js",
+    "static/js/3.6fefa82c.chunk.js.map": "/lipe.dev/dojojo/static/js/3.6fefa82c.chunk.js.map",
+    "index.html": "/lipe.dev/dojojo/index.html",
+    "static/css/main.8079be36.chunk.css.map": "/lipe.dev/dojojo/static/css/main.8079be36.chunk.css.map",
+    "static/js/2.58f8094e.chunk.js.LICENSE.txt": "/lipe.dev/dojojo/static/js/2.58f8094e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46ac4d74.js",
+    "static/js/2.58f8094e.chunk.js",
+    "static/css/main.8079be36.chunk.css",
+    "static/js/main.491ff724.chunk.js"
+  ]
+}
