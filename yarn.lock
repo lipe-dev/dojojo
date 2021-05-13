@@ -1754,7 +1754,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@dojojo/core@workspace:."
   dependencies:
-    chalk: ^4.1.1
     commitizen: ^4.2.4
     cz-conventional-changelog: 3.3.0
   languageName: unknown
@@ -4404,7 +4403,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.1":
+"chalk@npm:^4.0.0, chalk@npm:^4.1.0":
   version: 4.1.1
   resolution: "chalk@npm:4.1.1"
   dependencies:
