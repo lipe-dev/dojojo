@@ -19,6 +19,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '12.x`
-      - run: yarn
-      - run: yarn workspace @dojojo/random-pudim run test --watchAll=false
-      - run: yarn workspace @dojojo/game-searcher run test --watchAll=false
+      - name: Setup Project
+        run: yarn
+      - name: Test Random Pudim
+        run: yarn workspace @dojojo/random-pudim run test --watchAll=false
+      - name: Test Game Searcher
+        run: yarn workspace @dojojo/game-searcher run test --watchAll=false
