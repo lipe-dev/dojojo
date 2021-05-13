@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>
-          Dojojo - TDD Front-End Dojo
+          Dojojo - Front-End TDD Dojo
         </h1>
       </header>
       <section>
