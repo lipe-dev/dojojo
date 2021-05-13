@@ -17,7 +17,7 @@ function App() {
     }
 
     return (
-        <img data-testid={'pudim'} src={imagensDePudim[indexAtual]} onClick={mudarImagem}/>
+        <img data-testid={'pudim'} src={imagensDePudim[indexAtual]} onClick={mudarImagem} alt="pudim"/>
     );
 }
 
