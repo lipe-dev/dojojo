@@ -1722,40 +1722,56 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dojojo/2021-04-15@workspace:projects/2021-04-15":
-  version: 0.0.0-use.local
-  resolution: "@dojojo/2021-04-15@workspace:projects/2021-04-15"
-  dependencies:
-    "@testing-library/jest-dom": ^5.11.4
-    "@testing-library/react": ^11.1.0
-    "@testing-library/user-event": ^12.1.10
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-scripts: 4.0.3
-    web-vitals: ^1.0.1
-  languageName: unknown
-  linkType: soft
-
-"@dojojo/2021-05-04@workspace:projects/2021-05-04":
-  version: 0.0.0-use.local
-  resolution: "@dojojo/2021-05-04@workspace:projects/2021-05-04"
-  dependencies:
-    "@testing-library/jest-dom": ^5.11.4
-    "@testing-library/react": ^11.1.0
-    "@testing-library/user-event": ^12.1.10
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-scripts: 4.0.3
-    web-vitals: ^1.0.1
-  languageName: unknown
-  linkType: soft
-
 "@dojojo/core@workspace:.":
   version: 0.0.0-use.local
   resolution: "@dojojo/core@workspace:."
   dependencies:
     commitizen: ^4.2.4
     cz-conventional-changelog: 3.3.0
+  languageName: unknown
+  linkType: soft
+
+"@dojojo/game-searcher@0.1.0, @dojojo/game-searcher@workspace:projects/game-searcher":
+  version: 0.0.0-use.local
+  resolution: "@dojojo/game-searcher@workspace:projects/game-searcher"
+  dependencies:
+    "@testing-library/jest-dom": ^5.11.4
+    "@testing-library/react": ^11.1.0
+    "@testing-library/user-event": ^12.1.10
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-scripts: 4.0.3
+    web-vitals: ^1.0.1
+  languageName: unknown
+  linkType: soft
+
+"@dojojo/homepage@workspace:projects/homepage":
+  version: 0.0.0-use.local
+  resolution: "@dojojo/homepage@workspace:projects/homepage"
+  dependencies:
+    "@dojojo/game-searcher": 0.1.0
+    "@dojojo/random-pudim": 0.1.0
+    "@testing-library/jest-dom": ^5.11.4
+    "@testing-library/react": ^11.1.0
+    "@testing-library/user-event": ^12.1.10
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-scripts: 4.0.3
+    web-vitals: ^1.0.1
+  languageName: unknown
+  linkType: soft
+
+"@dojojo/random-pudim@0.1.0, @dojojo/random-pudim@workspace:projects/random-pudim":
+  version: 0.0.0-use.local
+  resolution: "@dojojo/random-pudim@workspace:projects/random-pudim"
+  dependencies:
+    "@testing-library/jest-dom": ^5.11.4
+    "@testing-library/react": ^11.1.0
+    "@testing-library/user-event": ^12.1.10
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-scripts: 4.0.3
+    web-vitals: ^1.0.1
   languageName: unknown
   linkType: soft
 
