@@ -25,8 +25,10 @@ jobs:
         run: yarn workspaces foreach run test --watchAll=false
       - name: Build Projects
         run: yarn workspaces foreach run build
-      - name: Move Subsites
+      - name: Move [game-searcher]
         run: mv projects/game-searcher/build/ projects/homepage/build/game-searcher/
+      - name: Move [random-pudim]
+        run: mv projects/random-pudim/build/ projects/homepage/build/random-pudim/
       - name: Deploy to GH Pages 🚀
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
