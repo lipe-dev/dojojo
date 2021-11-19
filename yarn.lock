@@ -1891,6 +1891,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@dojojo/pokedex@workspace:projects/pokedex":
+  version: 0.0.0-use.local
+  resolution: "@dojojo/pokedex@workspace:projects/pokedex"
+  dependencies:
+    "@testing-library/jest-dom": ^5.11.4
+    "@testing-library/react": ^11.1.0
+    "@testing-library/user-event": ^12.1.10
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-scripts: 4.0.3
+    styled-components: ^5.3.0
+    web-vitals: ^1.0.1
+  languageName: unknown
+  linkType: soft
+
 "@dojojo/random-pudim@workspace:projects/random-pudim":
   version: 0.0.0-use.local
   resolution: "@dojojo/random-pudim@workspace:projects/random-pudim"
@@ -11532,21 +11547,6 @@ fsevents@^1.2.7:
   checksum: 39a484182f8fc08cb1420d4a5ccf16457c6498a4546bfbad9e00df7238ba7d98796e9aa6f82a4e803a627860409ffed491a55c5a1384e09bed60cefeb618586d
   languageName: node
   linkType: hard
-
-"pokedex@workspace:projects/pokedex":
-  version: 0.0.0-use.local
-  resolution: "pokedex@workspace:projects/pokedex"
-  dependencies:
-    "@testing-library/jest-dom": ^5.11.4
-    "@testing-library/react": ^11.1.0
-    "@testing-library/user-event": ^12.1.10
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-scripts: 4.0.3
-    styled-components: ^5.3.0
-    web-vitals: ^1.0.1
-  languageName: unknown
-  linkType: soft
 
 "portfinder@npm:^1.0.26":
   version: 1.0.28
